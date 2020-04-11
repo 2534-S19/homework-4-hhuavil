@@ -13,6 +13,6 @@ void initBoard();
 bool charFSM(char rChar);
 
 // TODO: Define any constants that are local to homework.c using #define
-
+typedef enum {one, two, three, four} State;
 
 #endif /* HOMEWORK4_H_ */
